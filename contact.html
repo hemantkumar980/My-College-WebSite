@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Informatics College</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Keywords" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="javascript/js.js"></script>
+  <script src="javascript/validatename.js"></script>
+
+</head>
+
+<body class="body">
+  <header class="mainheader">
+    <img src="images/logo.jpg">
+    <content id="search">
+      <form>
+        <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+      </form>
+    </content>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <iframe
+    src="https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/28.999914,77.761391/14?ms=312,360&amp;pp=28.999914,77.761391;S593|SelectedPointState&amp;ml=Basemap,Landmarks,OsmBuildings&amp;key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&amp;c=en-US&amp;ur=in&amp;dpi=Large&amp;da=n&amp;logo=n&amp;fmt=jpeg&amp;od=1"
+    width="300" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <h3>Contact</h3>
+  <h4>IIMT ENGINEERING COLLEGE<br>
+    'O' POCKET, GANGA NAGAR COLONY</h4>
+  MAWANA ROAD, MEERUT (U.P.)
+  <pre>
+Phone : +91-9997089170<br>
+Email :  iimtu.net<br>
+Facebook : http://facebook.com/iimtu<br>
+</pre>
+
+
+  <!DOCTYPE html>
+  <html>
+
+  <body>
+
+    <br>
+    <br>
+
+    <strong>If you are student please enter your student number:</strong>
+    <center>
+      <input id="numb">
+
+      <button type="button" onclick="myFunction()">Submit</button>
+
+      <p id="demo"></p>
+    </center>
+    <hr>
+    <footer class="mainFooter">
+      <p>Copyright &copy <a href="#">Hemant Kumar</a> </p>
+      <center>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Youtube</a>
+      </center>
+    </footer>
+    <script>
+      function myFunction() {
+        var x, text;
+
+        // Get the value of the input field with id="numb"
+        x = document.getElementById("numb").value;
+
+        // If x is Not a Number or less than one or greater than 10
+        if (isNaN(x) || x < 1 || x > 1000) {
+          text = "Input not valid";
+        } else {
+          text = "Input OK";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+
+  </body>
+
+  </html>
+  <script type="text/javascript">
+    document.title = "Contact";
+  </script>
+</body>
+
+</html>
